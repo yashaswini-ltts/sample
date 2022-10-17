@@ -25,6 +25,11 @@ pipeline {
             echo 'mvn docker'
       }
     }
+    stage ('ansible') {
+      steps {
+            echo 'mvn ansible'
   }
 }
-    
+  }
+}
+
